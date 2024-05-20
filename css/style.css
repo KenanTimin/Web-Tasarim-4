@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.sidebar{
+    background-color: blue;
+    width:20%;
+    color:#fff;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo_box{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.footer_box{
+    height: 400px;
+    margin: 20px;
+}
+.check{
+    font-size: 30px;
+    font-weight: bold;
+}
+.footer_box p{
+    margin-top: 25px;
+}
+.hr_box{
+    display:flex;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.hr_box hr{
+    width:50px;
+    margin-left:20px;
+    height: 2px;
+    background-color: #fff;
+    border:1px solid #fff;
+    border-radius: 3px;
+}
+.icon_box{
+    margin: 35px 0;
+}
+.icon_box i{
+    margin: 10px;
+}
+.footer_label label{
+    margin: 5px;
+}
+.content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 80%;
+}
+.center_box{
+    width:500px;
+    height: 500px;
+    border:1px solid #000;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.center_box label{
+    color:grey;
+    margin: 10px;
+}
+.welcome {
+    color:blue !important;
+    font-size: 25px;
+    
+}
+.center_box input{
+    height: 35px;
+    width:80%;
+}
+.email_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+.forget_box{
+    
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+input[type="checkbox"]{
+    height: 16px;
+}
+.remember_box{
+    display:flex;
+    flex-direction: row;
+}
+.signin_box{
+    display:flex;
+    justify-content: center;;
+}
+.signin{
+    background-color: blue;
+    width: 50%;
+    color:#fff;
+    height: 45px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.button_box{
+    display:flex;
+    justify-content: center;
+}
+.button_box button{
+    background-color: fff;
+    width: 25%;
+    color:grey;
+    height: 45px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-left: 5px;
+}
